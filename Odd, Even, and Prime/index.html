@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OdVenPrime App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <h1 class="header">Odd, Even, and Prime</h1>
+        <div class="form">
+          <label for="input-name" class="label-input">Input Number</label>
+          <input type="number" value="0" id="input-number" class="input" required />
+        </div>
+        <div class="btn-group">
+          <button class="btn-submit" id="btn-odd">Odd</button>
+          <button class="btn-submit" id="btn-even">Even</button>
+          <button class="btn-submit" id="btn-prime">Prime</button>
+        </div>
+        <p id="show-desc"></p>
+      </div>
+      <div class="right-side">
+        <div class="card">
+          <h1 class="text-center">Result</h1>
+          <div id="show-result"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
